@@ -1,0 +1,2 @@
+update-grub-gfxpayload usr/sbin
+blacklist usr/share/grub-gfxpayload-lists

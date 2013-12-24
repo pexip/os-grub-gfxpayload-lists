@@ -1,0 +1,8 @@
+#! /bin/sh
+set -e
+
+update-grub-gfxpayload
+
+#DEBHELPER#
+
+exit 0

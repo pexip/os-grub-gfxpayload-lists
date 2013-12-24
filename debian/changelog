@@ -1,0 +1,37 @@
+grub-gfxpayload-lists (0.6) precise; urgency=low
+
+  * Blacklist Radeon HD 6800 (LP: #971204)
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 11 Apr 2012 12:02:32 +0800
+
+grub-gfxpayload-lists (0.5) oneiric; urgency=low
+
+  * Clarify that ID components should be expressed in lower-case
+    hexadecimal.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 29 Sep 2011 12:09:50 +0100
+
+grub-gfxpayload-lists (0.4) oneiric; urgency=low
+
+  * Ignore broken symlinks in /usr/share/grub-gfxpayload-lists/blacklist
+    (LP: #827046).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 16 Aug 2011 12:11:43 +0100
+
+grub-gfxpayload-lists (0.3) oneiric; urgency=low
+
+  * Blacklist VMware's virtual VGA adapters. (LP: #778615)
+
+ -- Evan Broder <evan@ebroder.net>  Mon, 06 Jun 2011 10:08:58 +0100
+
+grub-gfxpayload-lists (0.2) natty; urgency=low
+
+  * Ensure that /boot/grub exists (LP: #758328).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 12 Apr 2011 10:40:14 +0100
+
+grub-gfxpayload-lists (0.1) natty; urgency=low
+
+  * Initial release.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 16 Dec 2010 16:28:59 +0000

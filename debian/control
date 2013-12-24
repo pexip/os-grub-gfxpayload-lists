@@ -1,0 +1,18 @@
+Source: grub-gfxpayload-lists
+Section: admin
+Priority: optional
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7)
+
+Package: grub-gfxpayload-lists
+Architecture: any-i386 any-amd64
+Depends: ${misc:Depends}, grub-pc (>= 1.99~20101210-1ubuntu2)
+Description: GRUB gfxpayload blacklist
+ The 'set gfxpayload=keep' facility in GRUB provides smooth graphical
+ handover to the Linux kernel.  Unfortunately, this does not work on all
+ systems, resulting in a black or corrupt display.  This package provides a
+ blacklist of PCI IDs which fail.
+ .
+ We maintain this separately from GRUB because it is likely to be updated on
+ a different schedule.

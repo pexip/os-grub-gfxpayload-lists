@@ -1,0 +1,31 @@
+.\" update-grub-gfxpayload.8
+.Dd December 16, 2010
+.Os Ubuntu
+.ds volume-operating-system Ubuntu
+.Dt UPDATE\-GRUB\-GFXPAYLOAD 8
+.Sh NAME
+.Nm update\-grub\-gfxpayload
+.Nd update /boot/grub/gfxblacklist.txt
+.Sh SYNOPSIS
+.Nm
+.Sh DESCRIPTION
+.Nm
+updates
+.Pa /boot/grub/gfxblacklist.txt
+from source files in
+.Pa /usr/share/grub-gfxpayload-lists/blacklist/ ,
+which disables GRUB's
+.Li gfxpayload=keep
+facility with certain graphics cards.
+It should normally only need to be called internally by packages.
+.Pp
+If you need to disable
+.Li gfxpayload=keep
+locally (perhaps because your system starts up with a black or corrupt
+screen), then you do not need this program.
+Instead, add this line to
+.Pa /etc/default/grub :
+.Pp
+.D1 Li GRUB_GFXPAYLOAD_LINUX=text
+.Sh AUTHOR
+.An Colin Watson Aq cjwatson@ubuntu.com
