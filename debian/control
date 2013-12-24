@@ -1,9 +1,11 @@
 Source: grub-gfxpayload-lists
 Section: admin
 Priority: optional
-Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Colin Watson <cjwatson@ubuntu.com>
 Standards-Version: 3.9.1
 Build-Depends: debhelper (>= 7)
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: grub-gfxpayload-lists
 Architecture: any-i386 any-amd64
